@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font: optional; ;
+    background-color: #247dc0;
+    padding: 20px;
+    line-height: 1.5;
+}
+/* Container principal - div centralizadora*/
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: rgb(94, 155, 9);
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(red, rgb(58, 39, 126), blue, alpha);
+    overflow: hidden;
+    text-align: center;
+}
+/*Header + Menu Horizontal*/
+header{
+    background: linear-gradient(135deg,#341796,#2b4c7c);
+    color: white;
+    padding: 1.2rem 2rem;
+    
+}
+header h1{
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    text-align: center;
+}
+/* menu horizontal com flexbox*/
+.menu-horizontal ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 2rem;
+}
+.menu-horizontal a{
+    color: #f0f9ff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.3rem 0;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease;   
+}
+.menu-horizontal a:hover{
+    border-bottom-color: #50ff4a;
+    color: #197920;    
+}
+/* Main Principal */
+main {
+    padding: 2rem;
+}
+.conteudo-container{
+    background-color: #fefefe;
+    border-left: 5px solid #2b4c7c;
+    box-shadow: 0 1px 3px rgba(red, rgb(21, 145, 93), blue, alpha);
+}
+main h1{
+    color: #1e2f4b;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+p {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    padding:30px ;
+}
+footer {
+    background-color: #97a6b9;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #040f1a;
+    border-top: 1px solid #730105;
+}
